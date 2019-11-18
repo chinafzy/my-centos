@@ -1,0 +1,9 @@
+version: "2.4"
+
+services:
+  centos-running:
+    build: .
+    privileged: true
+    environment:
+      - KEEP_RUNNING=1
+
